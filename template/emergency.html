@@ -1,0 +1,35 @@
+<div id="navBar">
+	<a href="#/index/person">返回</a>
+	<span>紧急联系人</span>
+</div>
+<div id="emergency">
+	<div class="content">
+		<ul class="emerUl">
+			<li class="aText emerLi"  ng-click="clan()">
+				<span  id="clan">亲属关系</span>
+			</li>
+			<ul id="select-ul" ng-class={active:a}>
+				<li id="select-lia" ng-click = "parents()">父母</li>
+				<li id="select-lib" ng-click = "spouse()">配偶</li>
+				<li id="select-lic" ng-click = "brothers()">兄弟姐妹</li>
+			</ul>
+			<li class="emerLi">
+				<span>联系方式</span>
+				<input type="text" placeholder="请输入" class="sText" />
+			</li>
+			<li class="aText emerLi" ng-click="society()">
+				<span  id="society">社会关系</span>
+			</li>
+			<ul id="select-ul2" ng-class={active:b}>
+				<li id="select-lid" ng-click = "schoolmate()">同学</li>
+				<li id="select-lie" ng-click = "colleague()">同事</li>
+				<li id="select-lif" ng-click = "friend()">朋友</li>
+			</ul>
+			<li class="emerLi">
+				<span>联系方式</span>
+				<input type="text" placeholder="请输入" class="sText"/>
+			</li>
+		</ul>
+	</div>
+	<a href="#/index/person">确定</a>
+</div>

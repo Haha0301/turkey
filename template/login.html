@@ -1,0 +1,15 @@
+<div id="navBar">
+	<a href="#/index">返回</a>
+	<span>登录</span>
+</div>
+<div id="login-hea"><img src="./images/sign.png"></div>
+<div id="login-sec">
+	<span>账号：</span><input type="text" placeholder="请输入" class="text" v-model="name"/>
+	<span class="pass">密码：</span><input type="password" placeholder="请输入" class="text text2" v-model="pass"/>
+	<a href="javascript:;" ng-click="login()" class="button">登录</a>
+	<a href="javascript:;" ng-click="login()" class="button botton2">微信登录</a>
+</div>
+<div id="login-foo">
+	<span class="number">没有账号?</span>
+	<a href="#/my/register" class="register">免费注册</a>
+</div>

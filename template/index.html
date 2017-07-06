@@ -1,0 +1,118 @@
+<div id="navBar">
+	<!-- <a href="javascript:;">返回</a> -->
+	<span>首页</span>
+</div>
+
+<div id="index-hea" ng-if="title==1">
+	<div id="banner">
+		<div class="banner-con">
+			<span>可借金额 (元)</span>
+			<h1>1000</h1>
+			<a href="#/index/sum">立即借款</a>
+		</div>
+	</div>
+</div>
+<div id="index-hea" ng-if="title==2">
+	<div id="banner">
+		<div class="banner-con">
+			<span>申请金额 (元)</span>
+			<h1>1000</h1>
+			<a href="#/index/sum">审核进度</a>
+		</div>
+	</div>
+</div>
+<div id="index-hea" ng-if="title==3">
+	<div id="banner">
+		<div class="banner-con clear-fix">
+			<span>申请金额 (元)</span>
+			<h1>1000</h1>
+			<a href="#/index/sum">继续申请</a>
+			<b>取消</b>
+		</div>
+	</div>
+</div>
+<div id="index-hea" ng-if="title==4">
+	<div id="banner">
+		<div class="banner-con">
+			<span>还款金额 (元)</span>
+			<h1>1000</h1>
+			<a href="#/index/sum">还款 / 续期</a>
+			<h2>到期时间：<i>2017.6.15</i></h2>
+		</div>
+	</div>
+</div>
+<div id="index-sec">
+	<div id="approve">认证信息</div>
+	<div id="approve-box">
+		<ul class="clear-fix">
+			<li>
+				<a href="#/index/papprove"  ng-if="isSubmitPho==1">
+					<img src="./images/phone.png" class="picture">
+					<span>手机认证</span>
+					<p>去提交<img src="./images/icon.png" class="icon"></p>
+				</a>
+				<a href="javascript:;"  ng-if="isSubmitPho==2">
+					<img src="./images/phone2.png" class="picture">
+					<span>手机认证</span>
+					<p>审核中<img src="./images/wait.png" class="icon"></p>
+				</a>
+				<a href="javascript:;"  ng-if="isSubmitPho==3">
+					<img src="./images/phone2.png" class="picture">
+					<span>手机认证</span>
+					<p style="color:#3aa33a">已认证<img src="./images/success.png" class="icon"></p>
+				</a>
+			</li>
+			<li style="border-right:none">
+				<a href="#/index/person" ng-if="isSubmitPer==1">
+					<img src="./images/person.png" class="picture">
+					<span>个人信息</span>
+					<p>去提交<img src="./images/icon.png" class="icon"></p>
+				</a>
+				<a href="javascript:;"  ng-if="isSubmitPer==2">
+					<img src="./images/person2.png" class="picture">
+					<span>个人信息</span>
+					<p>审核中<img src="./images/wait.png" class="icon"></p>
+				</a>
+				<a href="javascript:;"  ng-if="isSubmitPer==3">
+					<img src="./images/person2.png" class="picture">
+					<span>个人信息</span>
+					<p style="color:#3aa33a">已认证<img src="./images/success.png" class="icon"></p>
+				</a>
+			</li>
+			<li style="border-bottom:none">
+				<a href="#/index/identity" ng-if="isSubmitCam==1">
+					<img src="./images/camera.png" class="picture">
+					<span>拍照认证</span>
+					<p style="margin-bottom:0">去提交<img src="./images/icon.png" class="icon"></p>
+				</a>
+				<a href="javascript:;"  ng-if="isSubmitCam==2">
+					<img src="./images/camera2.png" class="picture">
+					<span>拍照认证</span>
+					<p>审核中<img src="./images/wait.png" class="icon"></p>
+				</a>
+				<a href="javascript:;"  ng-if="isSubmitCam==3">
+					<img src="./images/camera2.png" class="picture">
+					<span>拍照认证</span>
+					<p style="color:#3aa33a">已认证<img src="./images/success.png" class="icon"></p>
+				</a>
+			</li>
+			<li style="border-right:none;border-bottom:none">
+				<a href="#/index/card" ng-if="isSubmitCard==1">
+					<img src="./images/card.png" class="picture">
+					<span>银行卡认证</span>
+					<p style="margin-bottom:0">去提交<img src="./images/icon.png" class="icon"></p>
+				</a>
+				<a href="javascript:;" ng-if="isSubmitCard==2">
+					<img src="./images/card2.png" class="picture">
+					<span>银行卡认证</span>
+					<p>审核中<img src="./images/wait.png" class="icon"></p>
+				</a>
+				<a href="javascript:;"  ng-if="isSubmitCard==3">
+					<img src="./images/card2.png" class="picture">
+					<span>银行卡认证</span>
+					<p style="color:#3aa33a">已认证<img src="./images/success.png" class="icon"></p>
+				</a>
+			</li>
+		</ul>
+	</div>
+</div>

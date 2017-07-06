@@ -1,0 +1,22 @@
+<div id="navBar">
+	<a href="#/my">返回</a>
+	<span>我的金币</span>
+</div>
+<div id="gold">
+	<div class="banner">
+		<img src="./images/money.png">
+		<p>金币余额：<span>{{money}}</span>&nbsp;(个)</p>
+		<a href="#/my/draw">提现</a>
+	</div>
+	<div class="content">
+		<p>账单</p>
+		<div class="info">
+			<ul>
+				<li class="clear-fix" ng-repeat="v in dataMoney">
+					<span>{{v.type}}{{v.turnover}}</span>
+					<b>{{v.datetime}}</b>
+				</li>
+			</ul>
+		</div>
+	</div>
+</div>	

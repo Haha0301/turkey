@@ -1,0 +1,522 @@
+#navBar {
+  width: 100%;
+  height: 1.87733rem;
+  background: #333;
+  line-height: 1.87733rem;
+  text-align: center;
+  position: relative; }
+  #navBar a {
+    color: #fff;
+    background: url("../images/larrow.png") no-repeat 0.064rem;
+    background-size: 0.40533rem 0.66133rem;
+    position: absolute;
+    left: 30px;
+    padding-left: 0.64rem; }
+  #navBar span {
+    color: #fff; }
+  #navBar b {
+    color: #fff;
+    position: absolute;
+    right: 30px; }
+
+#my-hea {
+  height: 8.74667rem;
+  background: url(../images/banner2.png) no-repeat;
+  background-size: 100%;
+  text-align: center; }
+  #my-hea img {
+    width: 3.968rem;
+    height: 3.968rem;
+    margin-top: 1.17333rem;
+    margin-bottom: 0.32rem; }
+  #my-hea a {
+    display: block;
+    color: #fff; }
+
+#my-sec {
+  width: 100%;
+  background: #fff;
+  padding-bottom: 2.091rem; }
+  #my-sec ul {
+    width: 14.69867rem;
+    margin: 0 auto;
+    padding-bottom: 0.42667rem; }
+    #my-sec ul li {
+      height: 2.02667rem;
+      border-bottom: 1px solid #ededed;
+      line-height: 2.02667rem;
+      background: url("../images/rarrow.png") no-repeat 14.08rem;
+      background-size: 0.29867rem 0.53333rem; }
+      #my-sec ul li a {
+        display: block; }
+        #my-sec ul li a img {
+          width: 0.74667rem;
+          height: 0.74667rem;
+          margin-left: 0.256rem;
+          margin-right: 0.384rem; }
+    #my-sec ul li:nth-last-child(1) {
+      border-bottom: none; }
+
+#my-foo {
+  width: 100%;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  height: 2.091rem;
+  background: #f6f6f8;
+  border-top: 1px solid #ddd; }
+  #my-foo ul {
+    width: 14.635rem;
+    margin: 0 auto; }
+    #my-foo ul li {
+      float: left;
+      width: 7.296rem;
+      text-align: center;
+      margin-top: 0.32rem; }
+      #my-foo ul li a img:nth-child(1) {
+        width: 0.832rem;
+        height: 0.832rem; }
+      #my-foo ul li a img:nth-child(2) {
+        width: 0.832rem;
+        height: 92.733rem; }
+      #my-foo ul li a span {
+        display: block;
+        margin-top: 0.101rem;
+        font-size: 0.469rem; }
+      #my-foo ul li .debit-a {
+        color: #9c9c9e; }
+      #my-foo ul li .my-a {
+        color: #f3624b; }
+
+#login-hea, #register-hea {
+  width: 16.0rem;
+  height: 9.6rem; }
+  #login-hea img, #register-hea img {
+    width: 3.669rem;
+    height: 3.669rem;
+    margin: 3.691rem 6.165rem 2.24rem 6.08rem; }
+
+#login-sec, #register-sec {
+  position: relative; }
+  #login-sec input, #register-sec input {
+    display: block;
+    outline: none;
+    border: 1px solid #e5e5e5;
+    margin-left: 1.664rem;
+    border-radius: 0.853rem;
+    height: 1.749rem;
+    font-size: 0.74667rem; }
+  #login-sec input::-webkit-input-placeholder, #register-sec input::-webkit-input-placeholder {
+    font-size: 0.55467rem; }
+  #login-sec .text, #register-sec .text {
+    margin-bottom: 0.64rem;
+    width: 9.128rem;
+    padding-left: 3.037rem;
+    font-size: 0.555rem; }
+  #login-sec .text2, #register-sec .text2 {
+    margin-bottom: 1.173rem; }
+  #login-sec p, #register-sec p {
+    background: url("../images/null.png") no-repeat 0.064rem;
+    background-size: 0.64rem 0.64rem;
+    padding-left: 0.96rem;
+    margin-left: 7.46667rem;
+    margin-bottom: 0.42667rem; }
+    #login-sec p a, #register-sec p a {
+      color: #2785b9; }
+  #login-sec p:active, #register-sec p:active {
+    background: url("../images/select.png") no-repeat 0.064rem;
+    background-size: 0.64rem 0.64rem;
+    padding-left: 0.96rem; }
+  #login-sec .button, #register-sec .button {
+    display: block;
+    height: 1.70667rem;
+    width: 12.8rem;
+    margin-left: 1.6rem;
+    background: #f3624b;
+    border-radius: 1.06667rem;
+    color: #fff;
+    line-height: 1.70667rem;
+    text-align: center;
+    font-size: 0.68267rem;
+    margin-bottom: 0.64rem; }
+  #login-sec .botton2, #register-sec .botton2 {
+    color: #f3624b;
+    background: #fff;
+    border: 1px solid #f3624b; }
+  #login-sec span, #register-sec span {
+    position: absolute;
+    left: 2.56rem;
+    top: 0.46933rem; }
+  #login-sec .pass, #register-sec .pass {
+    top: 2.90133rem; }
+
+#login-foo {
+  font-size: 0.55467rem; }
+  #login-foo .number {
+    margin: 0 0.32rem 0 8.96rem; }
+  #login-foo .register {
+    color: #31b1fc; }
+
+#register-foo a {
+  margin: 0 0.32rem 0 8.96rem;
+  color: #31b1fc;
+  font-size: 0.55467rem; }
+
+#refund {
+  background: #fff;
+  width: 13.653rem;
+  border: 0.021rem solid #eee;
+  border-radius: 0.427rem;
+  margin: 31px auto 0; }
+  #refund h1 {
+    font-weight: normal;
+    background: #f3624b;
+    height: 1.728rem;
+    color: #fff;
+    width: 13.013rem;
+    padding-left: 0.64rem;
+    line-height: 1.728rem;
+    border-radius: 0.427rem 0.427rem 0 0; }
+  #refund h2 {
+    border-bottom: 1px dashed #d9d9d9; }
+    #refund h2 p {
+      font-size: 0.555rem;
+      padding-top: 0.96rem;
+      padding-bottom: 0.64rem;
+      width: 11.904rem;
+      margin: 0 auto;
+      line-height: 1.067rem;
+      text-indent: 2em; }
+      #refund h2 p span {
+        color: #df3b3b; }
+  #refund h3 {
+    font-size: 0.555rem;
+    color: #999;
+    font-weight: normal;
+    font-size: 0.597rem;
+    height: 1.387rem;
+    line-height: 1.387rem;
+    padding-left: 8.64rem; }
+
+#newPass {
+  margin-top: 0.34133rem; }
+  #newPass input {
+    background: #fff;
+    border: none;
+    width: 100%;
+    line-height: 2.00533rem;
+    font-size: 0.55467rem; }
+  #newPass .old {
+    position: relative;
+    margin-bottom: 0.34133rem; }
+    #newPass .old input {
+      padding-left: 2.38933rem;
+      font-size: 0.55467rem;
+      width: 13.61067rem; }
+  #newPass .new {
+    background: #fff; }
+    #newPass .new .first {
+      position: relative; }
+      #newPass .new .first input {
+        width: 12.13867rem;
+        padding-left: 2.26133rem;
+        border-bottom: 1px solid #f0f0f0;
+        margin-left: 0.85333rem;
+        font-size: 0.55467rem; }
+    #newPass .new .again {
+      position: relative; }
+      #newPass .new .again input {
+        padding-left: 4.16rem;
+        font-size: 0.55467rem;
+        width: 11.84rem; }
+  #newPass span {
+    position: absolute;
+    top: 0.59733rem;
+    left: 0.64rem; }
+  #newPass .true {
+    display: block;
+    height: 1.70667rem;
+    width: 12.8rem;
+    margin-top: 1.28rem;
+    margin-left: 1.6rem;
+    background: #f3624b;
+    border-radius: 1.06667rem;
+    color: #fff;
+    line-height: 1.70667rem;
+    text-align: center;
+    font-size: 0.68267rem; }
+
+#gold .banner {
+  height: 9.10933rem;
+  width: 100%;
+  background: #f3624b;
+  text-align: center;
+  color: #fff; }
+  #gold .banner img {
+    width: 3.43467rem;
+    height: 3.43467rem;
+    margin-top: 0.74667rem;
+    margin-bottom: 0.74667rem; }
+  #gold .banner p {
+    margin-bottom: 0.53333rem; }
+    #gold .banner p span {
+      font-size: 1.06667rem; }
+  #gold .banner a {
+    margin: 0 auto;
+    display: block;
+    color: #fff;
+    background: #2eb2fd;
+    width: 12.8rem;
+    height: 1.70667rem;
+    line-height: 1.70667rem;
+    border-radius: 1.06667rem;
+    text-align: center;
+    font-size: 0.68267rem; }
+#gold .content p {
+  border-left: 0.10667rem solid #f3624b;
+  margin: 0.74667rem 0 0.74667rem 0.256rem;
+  padding-left: 0.21333rem; }
+#gold .content .info {
+  background: #fff; }
+  #gold .content .info ul {
+    width: 14.69867rem;
+    margin: 0 auto; }
+    #gold .content .info ul li {
+      height: 1.70667rem;
+      line-height: 1.70667rem; }
+      #gold .content .info ul li b {
+        float: right;
+        color: #999; }
+    #gold .content .info ul li:nth-child(1) {
+      border-bottom: 1px solid #eee; }
+
+#getTask div {
+  background: #fff;
+  margin-top: 0.32rem;
+  overflow: hidden; }
+  #getTask div h1 {
+    background: url("../images/get-task.png") no-repeat;
+    background-size: 0.81067rem 0.81067rem;
+    padding-left: 1.28rem;
+    margin: 0.64rem 0 0.85333rem 0.64rem;
+    height: 0.81067rem; }
+  #getTask div h2 {
+    margin-left: 0.64rem;
+    margin-bottom: 0.64rem; }
+    #getTask div h2 b {
+      color: #c6c6c6; }
+    #getTask div h2 a {
+      padding-left: 8.32rem;
+      color: #2db3fc; }
+
+#share img {
+  width: 16rem;
+  height: 25.728rem; }
+
+#service img {
+  width: 16rem;
+  height: 25.728rem; }
+
+#task img {
+  width: 15.97867rem;
+  height: 8.08533rem;
+  margin-bottom: 0.27733rem; }
+#task .share {
+  background: #fff;
+  margin-bottom: 0.32rem;
+  overflow: hidden; }
+  #task .share .content1 {
+    width: 14.05867rem;
+    padding-left: 0.64rem; }
+    #task .share .content1 h1 {
+      font-size: 0.64rem;
+      margin: 0.53333rem 0 0.64rem; }
+    #task .share .content1 p {
+      margin-bottom: 0.68267rem;
+      color: #989898; }
+#task .time {
+  background: #fff; }
+  #task .time .content2 {
+    width: 14.05867rem;
+    padding: 0.53333rem 0;
+    padding-left: 0.64rem; }
+    #task .time .content2 b {
+      color: #c6c6c6; }
+#task a {
+  display: block;
+  height: 1.70667rem;
+  width: 12.8rem;
+  margin-top: 1.28rem;
+  margin-left: 1.6rem;
+  background: #f3624b;
+  border: none;
+  border-radius: 1.06667rem;
+  color: #fff;
+  line-height: 1.70667rem;
+  text-align: center;
+  font-size: 0.68267rem; }
+
+#setPass {
+  width: 100%;
+  overflow: hidden; }
+  #setPass .content {
+    background: #fff;
+    margin-top: 0.32rem; }
+    #setPass .content a {
+      display: block;
+      width: 14.69867rem;
+      height: 2.02667rem;
+      margin: 0 auto;
+      color: #000;
+      background: url("../images/rarrow.png") no-repeat 14.18667rem;
+      background-size: 0.29867rem 0.53333rem;
+      line-height: 2.02667rem; }
+
+#draw input {
+  width: 15.36rem;
+  padding-left: 0.64rem;
+  font-size: 0.64rem;
+  border: none;
+  height: 2.02667rem;
+  margin: 0.32rem 0 0.74667rem; }
+#draw input::-webkit-input-placeholder {
+  font-size: 0.59733rem; }
+#draw p {
+  margin-left: 0.64rem;
+  font-size: 0.46933rem; }
+#draw a {
+  display: block;
+  height: 1.70667rem;
+  width: 12.8rem;
+  margin-top: 1.28rem;
+  margin-left: 1.6rem;
+  background: #f3624b;
+  border: none;
+  border-radius: 1.06667rem;
+  color: #fff;
+  line-height: 1.70667rem;
+  text-align: center;
+  font-size: 0.68267rem; }
+
+#drawSucc .title {
+  width: 100%;
+  height: 10.60267rem;
+  background: #fff;
+  text-align: center;
+  margin-bottom: 0.32rem; }
+  #drawSucc .title img {
+    width: 3.02933rem;
+    height: 2.79467rem;
+    margin: 2.66667rem 0 1.55733rem 0; }
+#drawSucc .content {
+  background: #fff;
+  overflow: hidden; }
+  #drawSucc .content ul {
+    width: 13.97333rem;
+    margin: 0.74667rem auto 0; }
+    #drawSucc .content ul li {
+      height: 1.856rem;
+      border-left: 1px dotted #999;
+      position: relative; }
+      #drawSucc .content ul li span {
+        display: inline-block;
+        width: 0.68267rem;
+        height: 0.68267rem;
+        background: #999;
+        border-radius: 50%;
+        position: absolute;
+        left: -0.34133rem; }
+      #drawSucc .content ul li div {
+        display: relative; }
+        #drawSucc .content ul li div p {
+          position: absolute;
+          top: -0.064rem;
+          left: 0.704rem; }
+    #drawSucc .content ul li:nth-last-child(1) {
+      border-left: none; }
+    #drawSucc .content ul li.active {
+      border-left: 1px dotted #3ba13b; }
+      #drawSucc .content ul li.active span {
+        background: url("../images/finish.png") no-repeat;
+        background-size: contain; }
+      #drawSucc .content ul li.active p {
+        color: #3ba13b; }
+#drawSucc a {
+  display: block;
+  height: 1.70667rem;
+  width: 12.8rem;
+  margin-top: 1.28rem;
+  margin-left: 1.6rem;
+  background: #f3624b;
+  border: none;
+  border-radius: 1.06667rem;
+  color: #fff;
+  line-height: 1.70667rem;
+  text-align: center;
+  font-size: 0.68267rem; }
+
+#recommend {
+  width: 100%; }
+  #recommend .content {
+    width: 14.61333rem;
+    height: 3.05067rem;
+    border: 2px solid #eee;
+    border-radius: 10px;
+    background: #fff;
+    margin: 0 auto;
+    margin-top: 0.32rem; }
+    #recommend .content .head {
+      float: left;
+      width: 4.11733rem;
+      height: 2.56rem;
+      border-right: 1px dotted #000;
+      margin-top: 0.23467rem; }
+      #recommend .content .head p {
+        height: 2.45333rem;
+        width: 2.45333rem;
+        border-radius: 50%;
+        background: cyan;
+        margin: 0 auto; }
+    #recommend .content .info {
+      float: left;
+      margin-left: 0.85333rem;
+      margin-top: 0.53333rem; }
+      #recommend .content .info .name {
+        margin-bottom: 0.53333rem; }
+      #recommend .content .info .time {
+        font-size: 0.512rem;
+        color: #d6d6d6; }
+
+#problem {
+  width: 100%;
+  margin-top: 0.32rem; }
+  #problem .box h1 {
+    font-size: 0.597rem;
+    font-weight: normal;
+    height: 2.005rem;
+    line-height: 2.005rem;
+    background: url("../images/barrow.png") #fff no-repeat 14.827rem;
+    background-size: 0.533rem 0.299rem; }
+    #problem .box h1 .even, #problem .box h1 .odd {
+      display: block;
+      width: 0.32rem;
+      height: 2.005rem;
+      background: #2eb2fd;
+      margin-right: 0.32rem; }
+    #problem .box h1 .odd {
+      background: #f3624b; }
+  #problem .box .oddH.active {
+    background: url("../images/barrow.png") #f3624b no-repeat 14.827rem;
+    color: #fff; }
+  #problem .box .evenH.active {
+    background: url("../images/barrow.png") #2eb2fd no-repeat 14.827rem;
+    color: #fff; }
+  #problem .box h2 {
+    width: 14.7rem;
+    margin: 0.85rem auto; }
+    #problem .box h2 p {
+      width: 12.8rem;
+      color: #676767;
+      font-size: 0.597rem; }
+
+/*# sourceMappingURL=my.css.map */

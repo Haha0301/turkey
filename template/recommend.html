@@ -1,0 +1,14 @@
+<div id="navBar">
+	<a href="#/my">返回</a>
+	<span>我的推荐</span>
+</div>
+<div id="recommend">
+<div class="content clear-fix" ng-repeat="v in data">
+	<div class="head"><img src='http://test.hxsmtrz.com/{{v.user_head}}'></div>
+	<ul class="info">
+		<li class="name">{{v.user_name}}</li>
+		<li class="time">{{v.creat_time}}</li>
+	</ul>
+</div>
+</div>
+

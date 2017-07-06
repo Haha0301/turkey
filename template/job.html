@@ -1,0 +1,38 @@
+<div id="navBar">
+	<a href="#/index/person">返回</a>
+	<span>职业信息</span>
+</div>
+<div id="job">
+	<div class="content">
+		<ul class="jobUl">
+			<li class="tText jobLi"  ng-click="pro()">
+				<span id="profession">职业</span>
+			</li>
+			<ul id="select-ul" ng-class={active:a}>
+				<li id="select-lia" ng-click = "student()">学生族</li>
+				<li id="select-lib" ng-click = "job()">上班族</li>
+			</ul>
+			<li class="jobLi">
+				<span>月 收 入</span>
+				<input type="text" placeholder="请输入" class="fText" />
+			</li>
+			<li class="jobLi">
+				<span id="school">单位名称</span>
+				<input type="text" placeholder="请输入" class="fText" />
+			</li>
+
+			<li  class="tText jobLi">
+				<span>所在省市</span>
+			</li>
+			<li class="jobLi">
+				<span id="school2">单位地址</span>
+				<input type="text" placeholder="请输入" class="fText" />
+			</li>
+			<li class="jobLi">
+				<span id="school3">单位电话</span>
+				<input type="text" placeholder="请输入" class="fText" id="schoolP"/>
+			</li>
+		</ul>
+	</div>
+	<a href="#/index/person" class="btn">确定</a>
+</div>

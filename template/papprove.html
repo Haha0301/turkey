@@ -1,0 +1,37 @@
+<div id="navBar">
+	<a href="#/index">返回</a>
+	<span>手机认证</span>
+</div>
+<div id="papprove">
+	<div class="papprove-con">
+		<ul>
+			<li>
+				<a href="" class="address">
+					<span>手机通讯录授权</span>
+					<b>未授权</b>
+				</a>
+			</li>
+			<li>
+				<a href="#/index/impower" class="business">
+					<span>手机运营商授权</span>
+					<b>未授权</b>
+				</a>
+				
+			</li>
+		</ul>
+	</div>
+	<ul class="agree" id="phoneAgree">
+		<li ng-click="agree()" ng-class={active:a}>
+			<p>我同意<a href="#/my/pact1">《借款服务与隐私协议》</a></p>
+		</li>
+		<li ng-click="agree1()" ng-class={active:b}>
+			<p>我同意<a href="#/my/pact2">《信息收集及使用规则》</a></p>
+		</li>
+	</ul>
+	<a href="#/index" class="true">确定</a>
+	<ul class="reminder">
+		<li>温馨提示</li>
+		<li>1.请授权本人实名手机号码</li>
+		<li>2.该手机号码必须使用满6个月以上</li>
+	</ul>
+</div>

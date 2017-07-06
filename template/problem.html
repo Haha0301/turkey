@@ -1,0 +1,145 @@
+<div id="navBar">
+	<a href="#my">返回</a>
+	<span>常见问题</span>
+</div>
+<div id="problem">
+	<div class="box">
+		<h1 class="clear-fix oddH" ng-click="isConTit1()" ng-class={active:a1}>
+			<span class="fl odd"></span>
+			<b class="fl">Q1:怎样进行还款？是否可以提前还款？</b>
+		</h1>
+		<h2 class="clear-fix" ng-show="isConShow1">
+			<i class="fl">A1：</i>
+			<p class="fl">
+				我们会在还款日的前一天给您发送消息（微信或短信）提醒您还款；可以提前还款，但息费不予减免，还款金额不变，如需提前还款或者使用非绑定银行卡还款，如操作失败请与微信/APP/电话客服联系。
+			</p>
+		</h2>
+	</div> 
+	<div class="box">
+		<h1 class="clear-fix evenH" ng-click="isConTit2()" ng-class={active:a2}>
+			<span class="fl even"></span>
+			<b class="fl">Q2:一共有几种还款方式？</b>
+		</h1>
+		<h2 class="clear-fix" ng-show="isConShow2">
+			<i class="fl">A2：</i>
+			<p class="fl">
+				一共支持3种还款方式：
+				<br/>
+				1、微信还款
+				<br/>
+				2、支付宝还款
+				<br/>
+				3、使用本人绑定银行卡还款
+			</p>
+		</h2>
+	</div>
+	<div class="box">
+		<h1 class="clear-fix oddH" ng-click="isConTit3()" ng-class={active:a3}>
+			<span class="fl odd"></span>
+			<b class="fl">Q3:申请需要提供什么资料？系统是如何审核的？</b>
+		</h1>
+		<h2 class="clear-fix" ng-show="isConShow3">
+			<i class="fl">A3：</i>
+			<p class="fl">
+				只需要按照系统提示填写手机认证、身份认证和银行卡认证的必要资料即可，不需要其它任何资料，请务必填写您的真实资料。系统根据您的手机通讯数据结合第三方合作公司的数据进行分析，多维度计算出您的信用评分，多项评分综合计算出您的借款审核结果。
+			</p>
+		</h2>
+	</div>
+	<div class="box">
+		<h1 class="clear-fix evenH" ng-click="isConTit4()" ng-class={active:a4}>
+			<span class="fl even"></span>
+			<b class="fl">Q4:怎样修改手机号码？</b>
+		</h1>
+		<h2 class="clear-fix" ng-show="isConShow4">
+			<i class="fl">A4：</i>
+			<p class="fl">
+				如果您之前的号码有借款未结清，您可以先结清借款，在手机认证中重新认证手机号，账号会自动更改为新手机号。
+			</p>
+		</h2>
+	</div>
+	<div class="box">
+		<h1 class="clear-fix oddH" ng-click="isConTit5()" ng-class={active:a5}>
+			<span class="fl odd"></span>
+			<b class="fl">Q5:为什么我的申请审核没有通过？能否再次申请？</b>
+		</h1>
+		<h2 class="clear-fix" ng-show="isConShow5">
+			<i class="fl">A5：</i>
+			<p class="fl">
+				很抱歉，由于您的综合评分不足，因此借款申请暂未能获得批准。系统通过大数据分析自动审核，由于风险控制原因，无法告知您详细的信用分数和未通过的具体原因。如果个人资料无重大变化，不建议短期内再次申请，如有借款需求，请在一个月后再次尝试申请。
+			</p>
+		</h2>
+	</div>
+	<div class="box">
+		<h1 class="clear-fix evenH" ng-click="isConTit6()" ng-class={active:a6}>
+			<span class="fl even"></span>
+			<b class="fl">Q6:什么是容时期？容时期费用是多少？</b>
+		</h1>
+		<h2 class="clear-fix" ng-show="isConShow6">
+			<i class="fl">A6：</i>
+			<p class="fl">
+				对于火鸡借来说，还款日后的第一天至第七天是容时期，容时期内还款不影响信用评分。
+			</p>
+		</h2>
+	</div>
+	<div class="box">
+		<h1 class="clear-fix oddH" ng-click="isConTit7()" ng-class={active:a7}>
+			<span class="fl odd"></span>
+			<b class="fl">Q7:什么是逾期？</b>
+		</h1>
+		<h2 class="clear-fix" ng-show="isConShow7">
+			<i class="fl">A7：</i>
+			<p class="fl">
+				如您在容时期内未能正常还款即属于逾期。逾期还款会影响个人征信信用，如严重违约，我们将可能在产品中公布您的个人信息，同时您以后也将无法再向我们申请借款，最后，我们也将如实上传您的失信记录到您的网络征信档案，供其他金融机构和平台参考并被同步到支付宝征信体系。
+			</p>
+		</h2>
+	</div>
+	<div class="box">
+		<h1 class="clear-fix evenH" ng-click="isConTit8()" ng-class={active:a8}>
+			<span class="fl even"></span>
+			<b class="fl">Q8:如何计算逾期费用？</b>
+		</h1>
+		<h2 class="clear-fix" ng-show="isConShow8">
+			<i class="fl">A8：</i>
+			<p class="fl">
+				每日逾期费率是借款本金的1%，例如：1000元借款如逾期2天，则对应逾期费用是20元（1000元 x 1% x 2天）。
+			</p>
+		</h2>
+	</div>
+	<div class="box">
+		<h1 class="clear-fix oddH" ng-click="isConTit9()" ng-class={active:a9}>
+			<span class="fl odd"></span>
+			<b class="fl">Q9:什么是续期？如何进行续期？</b>
+		</h1>
+		<h2 class="clear-fix" ng-show="isConShow9">
+			<i class="fl">A9：</i>
+			<p class="fl">
+				续期功能是您结清本期的息费，另外收取本金2%的续期手续费，您可以继续使用本金，可选择续期7天或者14天，续期的息费按照产品正常的收费方式收取。续期请在“还款”界面操作，如出现问题请与微信/APP/电话客服联系。
+			</p>
+		</h2>
+	</div>
+	<div class="box">
+		<h1 class="clear-fix evenH" ng-click="isConTit10()" ng-class={active:a10}>
+			<span class="fl even"></span>
+			<b class="fl">Q10:我的姓名或身份证填写错误，能否修改？</b>
+		</h1>
+		<h2 class="clear-fix" ng-show="isConShow10">
+			<i class="fl">A10：</i>
+			<p class="fl">
+				为了您的账户信息安全，暂时不可以修改，姓名和身份证是账户的关键标识。
+			</p>
+		</h2>
+	</div>
+	<div class="box">
+		<h1 class="clear-fix oddH" ng-click="isConTit11()" ng-class={active:a11}>
+			<span class="fl odd"></span>
+			<b class="fl">Q11:如未按时还款会有什么后果？</b>
+		</h1>
+		<h2 class="clear-fix" ng-show="isConShow11">
+			<i class="fl">A11：</i>
+			<p class="fl">
+				我们会采取合法催收措施，同时将收取罚息和逾期管理费，每日的罚息和逾期管理费总额为应还款总额的1%，具体条款请参阅借款协议。如严重违约，我们将可能在产品中公布您的个人信息，同时您以后也将无法再向我们申请借款，最后，我们也将如实上传您的失信记录到您的网络征信档案，供其他金融机构和平台参考，并被同步到支付宝征信体系。
+			</p>
+		</h2>
+	</div>
+</div>
+	

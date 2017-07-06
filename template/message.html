@@ -1,0 +1,54 @@
+<div id="navBar">
+	<a href="#/index/person">返回</a>
+	<span>基本信息</span>
+</div>
+<div id="message">
+	<div class="content1">
+		<ul class="info">
+			<li class="info-li">
+				<span>姓名</span>
+				<input type="text" placeholder="请输入" class="tText" id="messName" ng-blur="nameB()"/>
+			</li>
+			<li class="info-li">
+				<span>学历</span>
+				<input type="text" placeholder="请输入" class="tText" id="messsEducation"/>
+			</li>
+			<li class="vText info-li"  ng-click = "secM()" id="marriage">
+				婚姻
+			</li>
+			<ul id="select-ul" ng-class={active:a}>
+				<li id="select-lia" ng-click = "old()">已婚</li>
+				<li id="select-lib" ng-click = "no()">未婚</li>
+			</ul>
+			<li class="vText info-li">
+				居住省市
+			</li>
+			<li class="info-li">
+				<span>常住地址</span>
+				<input type="text" placeholder="请输入" class="fText" id="messAdress"/>
+			</li>
+			<li class="info-li">
+				<span>居住时长</span>
+				<input type="text" placeholder="请输入" class="fText" id="messTime"/>
+			</li>
+			<li  class="info-li">
+				<span>QQ号码</span>
+				<input type="text" placeholder="请输入" class="fText" id="messQQ" ng-blur="qqB()"/>
+			</li>
+		</ul>
+	</div>
+	<div class="content2">
+		<ul>
+			<li>
+				<span>邮箱</span>
+				<input type="text" placeholder="请输入" class="tText" id="messEmail" ng-blur="emailB()"/>
+			</li>
+			<li>
+				<input type="text" placeholder="请输入验证码" class="tCode" id="messVerify"/>
+				<span class="sCode"><a href="#javascript:;">获取验证码</a></span>
+			</li>
+		</ul>	
+	</div>
+	
+	<a href="javascript:;" id="true" ng-click="fn()" >确定</a>
+</div>

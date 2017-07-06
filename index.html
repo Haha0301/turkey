@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html ng-app="app">
+<head>
+    <meta charset="UTF-8">
+    <!-- <meta http-equiv="refresh" content="2; url=#/my"  ng-show="$root.meta"> -->
+    <title ng-bind="$root.title"></title>
+    <link rel="stylesheet" type="text/css" href="./css/base.css">
+    <link rel="stylesheet" type="text/css" href="./css/debit.css">
+    <link rel="stylesheet" type="text/css" href="./css/my.css">
+    <script src="./js/index.js"></script>
+    <script src="./js/angular-1.5.6.js"></script>
+    <script src="./js/angular-route.js"></script>
+    <script src="./js/app.js"></script>
+    <script src="./js/route.js"></script>
+    <script src="./js/controller.js"></script>
+</head>
+<body ng-controller="common">
+    <!-- 提示弹框 -->
+    <div id="reminderCase" ng-show="$root.alert">
+         <div id="content">
+            <dl>
+                <dt>提示</dt>
+                <dd class="text">抱歉，您还没有进行认证，请完成认证后进行借款。</dd>
+                <dd class="select">
+                    <a href="#/index" class="false">取消</a><a href="#/index" class="true">确认</a>
+                </dd>
+            </dl>
+        </div>
+    </div>
+    <!-- 登录提示弹窗 -->
+    <div id="case2"  ng-show="$root.alert2">
+        <div id="content">
+            <p ng-if="caseNav==1">登录成功</p>
+            <p ng-if="caseNav==2">领取成功</p>
+        </div>
+    </div>
+    <!-- 客服弹窗 -->
+    <div id="serviceCase" ng-show="$root.service">
+        <div class="content">
+            <img src="./images/service.png">
+            <img src="./images/close.png" class="close" ng-click="close()">
+        </div>
+    </div>
+   <!--  {{$root.navShow}} -->
+    <div ng-view></div>
+    <div id="index-foo" ng-show="$root.navShow">
+        <ul class="clear-fix">
+            <li> 
+                <a href="#/" class="debit-a">
+                    <img src="./images/debit.png">
+                    <span>借贷</span>
+                </a>
+            </li>
+            <li>
+                <a href="#/my" class="my-a">
+                    <img src="./images/my2.png">
+                    <span>我的</span>                 
+                </a>
+            </li>
+        </ul>
+    </div>
+    <div id="my-foo" ng-show="$root.navShow2">
+        <ul class="clear-fix">
+            <li> 
+                <a href="#/" class="debit-a">
+                    <img src="./images/debit2.png">
+                    <span>借贷</span>
+                </a>
+            </li>
+            <li>
+                <a href="#/my" class="my-a">
+                    <img src="./images/my.png">
+                    <span>我的</span>                 
+                </a>
+            </li>
+        </ul>
+    </div>
+</body>
+</html>
